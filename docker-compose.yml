@@ -1,0 +1,8 @@
+version: '2.1'
+
+services:
+  desafiok:
+    image: desafiok
+    build: .
+    ports:
+      - 9080:9080

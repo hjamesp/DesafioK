@@ -1,0 +1,14 @@
+version: '2.1'
+
+services:
+  desafiok:
+    image: desafiok
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      JAVA_OPTS: -agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=5005,quiet=y
+    ports:
+      - 9080:9080
+      - 5005:5005
+    
