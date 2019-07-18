@@ -1,4 +1,3 @@
-# Reviews service
 
 apiVersion: v1
 kind: Service
