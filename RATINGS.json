@@ -3,7 +3,7 @@
 "kind": "Service",
 "metadata":,
   "name": "ratings",
-  "labels":
+  "labels":,
     "app": "ratings",
     "service": "ratings",
 "spec":,
